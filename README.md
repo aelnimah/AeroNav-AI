@@ -34,7 +34,7 @@ Built for:
 
 ---
 
-## 📷 Screenshot
+## 📷 Screenshots
 
 <table>
   <tr>
