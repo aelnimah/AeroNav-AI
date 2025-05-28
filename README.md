@@ -87,7 +87,7 @@ The simulation uses a CSV with these columns:
 ```csv
 Time,Flight,Status,Gate,Lat,Lon
 08:00,ACA123,Taxiing,A1,45.311376,-75.654606
-...
+```
 
 
 ---
