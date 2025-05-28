@@ -81,14 +81,19 @@ streamlit run main.py
 --- 
 
 ## 🧪 Data Format
+
 The simulation uses a CSV with these columns:
+
+```csv
 Time,Flight,Status,Gate,Lat,Lon
 08:00,ACA123,Taxiing,A1,45.311376,-75.654606
-📍 The coordinates were manually extracted over a real Ottawa airport layout to simulate realistic routes and interactions.
+...
+
 
 ---
 
 ### 📁 Project Structure
+```
 ├── main.py                     # Simulation engine & UI
 ├── data/
 │   └── simulated_aircraft_movements.csv
@@ -97,3 +102,4 @@ Time,Flight,Status,Gate,Lat,Lon
 │   └── generate_insights.py    # AI summary logic
 ├── .env                        # OpenAI API key
 ├── requirements.txt
+```
